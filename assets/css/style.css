@@ -72,9 +72,17 @@ body {
   background-color: #7e623a;
   transform: translateY(-3px);
 }
+.carousel {
+    width: 500px;
+    position: relative;
+}
 .controls {
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    right: -60px;
     display: flex;
-    justify-content: center;
-    gap: 35px;
-    margin-top: 20px;
+    justify-content: space-between;
+    transform: translateY(-70%);
+    padding: 0 10px;
 }
