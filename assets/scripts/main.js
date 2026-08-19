@@ -16,8 +16,7 @@ function showSlide(index) {
 
     slides[index].classList.add("active");
     dots[index].classList.add("active");
-}
-
+} 
 
 nextBtn.addEventListener("click", () => {
     currentSlide++;
@@ -43,5 +42,5 @@ dots.forEach((dot, index) => {
     dot.addEventListener("click", () => {
         currentSlide = index;
         showSlide(currentSlide);
-    })
-})
+    });
+});
