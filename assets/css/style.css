@@ -74,6 +74,7 @@ body {
 }
 .carousel {
     width: 500px;
+    height: 600px;
     position: relative;
 }
 .controls {
