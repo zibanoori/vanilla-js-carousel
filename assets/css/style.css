@@ -112,10 +112,6 @@ body {
   background-color: #2b2118;
   transform: scale(1.3);
 }
-.slide {
-    display: none;
-}
-
 .slide.active {
     display: block;
 }
