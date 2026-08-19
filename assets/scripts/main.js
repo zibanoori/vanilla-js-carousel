@@ -25,3 +25,12 @@ nextBtn.addEventListener("click",() =>{
 
     showSlide(currentSlide);
 });
+
+prevBtn.addEventListener("click",() =>{
+    currentSlide--;
+    if (currentSlide < 0) {
+        currentSlide = slides.length - 1;
+    }
+
+    showSlide(currentSlide);
+});
