@@ -108,3 +108,7 @@ body {
   cursor: pointer;
   transition: 0.3s;
 }
+.dot.active {
+  background-color: #2b2118;
+  transform: scale(1.3);
+}
