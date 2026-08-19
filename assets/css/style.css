@@ -51,3 +51,13 @@ body {
     margin: 15px 0;
     color: #6b5b4b;
 }
+.product button {
+    font-family: var(--body-font);
+    background-color: #2b2118;
+    color: #fff;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
