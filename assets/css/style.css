@@ -16,4 +16,9 @@ body {
     background: #eae0cf;
     font-family: var(--body-font);
 }
-
+.slide {
+    display: none;
+}
+.slide.active {
+    display: block;
+}
