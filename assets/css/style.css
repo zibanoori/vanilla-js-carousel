@@ -93,3 +93,6 @@ body {
 .controls button:hover {
     color: #fff;
 }
+.dots {
+    margin-top: 25px;
+}
