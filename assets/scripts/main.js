@@ -1,1 +1,2 @@
-const slider = document.querySelector(".slide");
+const slider = document.querySelectorAll(".slide");
+const dots = document.querySelectorAll(".dot");
