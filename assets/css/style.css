@@ -61,6 +61,7 @@ body {
     border-radius: 20px;
     cursor: pointer;
     font-size: 18px;
+    margin-top: 5px;
     transition: 0.3s;
 }
 .product button:hover {
