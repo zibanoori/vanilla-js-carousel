@@ -9,9 +9,13 @@ body {
     justify-content: center;
     align-items: center;
     background-color: beige;
+    font-family: var(--body-font);
 }
 :root {
     --title-font: "DM Serif Display", serif;
     --body-font: "Josefin Sans", sans-serif;
     --accent-font: "Dancing Script", cursive;
+}
+.product h2 {
+    font-family: var(--title-font);
 }
