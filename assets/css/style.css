@@ -100,3 +100,11 @@ body {
   gap: 10px;
   margin-top: 25px;
 }
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #c8b89a;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
