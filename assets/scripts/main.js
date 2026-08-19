@@ -8,5 +8,8 @@ let currentSlide = 0;
 function showSlide(index) {
     slides,forEach((slide) => {
         slide.clasList.remove("active");
+    });
+    dots.forEach((dot) => {
+        dot.classList.remove("active");
     })
 }
