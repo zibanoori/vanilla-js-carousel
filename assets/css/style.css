@@ -63,6 +63,6 @@ body {
     transition: 0.3s;
 }
 .product button:hover {
-    background-color: #8b6f47;
-    transform: translateY(-5px);
+    background-color: #7e623a;
+    transform: translateY(-3px);
 }
