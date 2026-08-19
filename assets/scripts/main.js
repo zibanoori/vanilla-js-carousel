@@ -15,3 +15,13 @@ function showSlide(index) {
     slide[index].clasList.add("active");
     dots[index].classList.add("avtive");
 }
+
+nextBtn.addEventListener("click",() =>{
+    currentSlide++;
+
+    if (currentSlide >= slide.length) {
+        currentSlide = 0;
+    }
+
+    showSlide(currentSlide);
+});
