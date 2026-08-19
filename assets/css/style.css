@@ -10,3 +10,8 @@ body {
     align-items: center;
     background-color: beige;
 }
+:root {
+    --title-font: "DM Serif Display", serif;
+    --body-font: "Josefin Sans", sans-serif;
+    --accent-font: "Dancing Script", cursive;
+}
