@@ -39,4 +39,9 @@ prevBtn.addEventListener("click", () => {
     showSlide(currentSlide);
 });
 
-console.log("JS connected");
+dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+        currentSlide = index;
+        showSlide(currentSlide);
+    })
+})
