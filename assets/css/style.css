@@ -29,7 +29,7 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.5s ease;
-  z-index: 0; /* ← اضافه کن */
+  z-index: 0; 
 }
 
 .product {
