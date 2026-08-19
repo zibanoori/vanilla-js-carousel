@@ -39,3 +39,9 @@ body {
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
+.product {
+    font-family: var(--title-font);
+    font-size: 32px;
+    margin-top: 20px;
+    color: #2b2118;
+}
