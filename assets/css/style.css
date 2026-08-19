@@ -86,3 +86,13 @@ body {
     transform: translateY(-70%);
     padding: 0 12px;
 }
+.controls button {
+    background-color: #eae0cf;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.controls button:hover {
+    color: #fff;
+}
