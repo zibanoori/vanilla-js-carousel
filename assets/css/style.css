@@ -25,3 +25,9 @@ body {
 .carousel {
     width: 350px;
 }
+.product {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
