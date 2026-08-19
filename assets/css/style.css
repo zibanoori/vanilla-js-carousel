@@ -43,7 +43,7 @@ body {
 .product h2 {
     font-family: var(--title-font);
     font-size: 32px;
-    margin-top: 20px;
+    margin-top: 25px;
     color: #2b2118;
 }
 .product p {
