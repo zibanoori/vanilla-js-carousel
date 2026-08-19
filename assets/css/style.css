@@ -1,70 +1,74 @@
 :root {
-    --title-font: "DM Serif Display", serif;
-    --body-font: "Josefin Sans", sans-serif;
-    --accent-font: "Dancing Script", cursive;
+  --title-font: "DM Serif Display", serif;
+  --body-font: "Josefin Sans", sans-serif;
+  --accent-font: "Dancing Script", cursive;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #eae0cf;
-    font-family: var(--body-font);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eae0cf;
+  font-family: var(--body-font);
 }
 .slide {
-    display: none;
+  display: none;
 }
 .slide.active {
-    display: block;
+  display: block;
 }
 .carousel {
-    width: 350px;
+  width: 350px;
 }
 .product {
-    background: #fff;
-    padding: 20px;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+  transition: 0.3s;
+}
+.product:hover {
+  transform: translateY(-5px);
 }
 .product-image {
-    display: block;
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  display: block;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 .product h2 {
-    font-family: var(--title-font);
-    font-size: 32px;
-    margin-top: 25px;
-    color: #2b2118;
+  font-family: var(--title-font);
+  font-size: 32px;
+  margin-top: 25px;
+  color: #2b2118;
 }
 .product p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 15px 0;
-    color: #6b5b4b;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 15px 0;
+  color: #6b5b4b;
 }
 .product button {
-    font-family: var(--body-font);
-    background-color: #2b2118;
-    color: #fff;
-    border: none;
-    padding: 14px 28px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 18px;
-    margin-top: 5px;
-    transition: 0.3s;
+  font-family: var(--body-font);
+  background-color: #2b2118;
+  color: #fff;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 5px;
+  transition: 0.3s;
 }
 .product button:hover {
-    background-color: #7e623a;
-    transform: translateY(-3px);
+  background-color: #7e623a;
+  transform: translateY(-3px);
 }
