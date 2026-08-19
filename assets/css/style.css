@@ -45,3 +45,9 @@ body {
     margin-top: 20px;
     color: #2b2118;
 }
+.product p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 15px 0;
+    color: #6b5b4b;
+}
