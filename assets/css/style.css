@@ -22,3 +22,6 @@ body {
 .slide.active {
     display: block;
 }
+.carousel {
+    width: 350px;
+}
