@@ -70,29 +70,33 @@ body {
   transform: translateY(-3px);
 }
 .carousel {
-    width: 500px;
-    position: relative;
+  width: 500px;
+  position: relative;
 }
 .controls {
-    position: absolute;
-    top: 50%;
-    left: -60px;
-    right: -60px;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-    padding: 0 12px;
+  position: absolute;
+  top: 50%;
+  left: -60px;
+  right: -60px;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  padding: 0 12px;
 }
 .controls button {
-    background-color: #eae0cf;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-    transition: 0.3s;
+  background-color: #eae0cf;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 .controls button:hover {
-    color: #fff;
+  color: #fff;
 }
 .dots {
-    margin-top: 25px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
 }
