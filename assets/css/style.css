@@ -72,3 +72,9 @@ body {
   background-color: #7e623a;
   transform: translateY(-3px);
 }
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 20px;
+}
