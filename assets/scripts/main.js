@@ -11,5 +11,7 @@ function showSlide(index) {
     });
     dots.forEach((dot) => {
         dot.classList.remove("active");
-    })
+    });
+    slide[index].clasList.add("active");
+    dots[index].classList.add("avtive");
 }
