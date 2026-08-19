@@ -22,9 +22,6 @@ body {
 .slide.active {
   display: block;
 }
-.carousel {
-  width: 350px;
-}
 .product {
   background: #fff;
   padding: 20px;
@@ -74,7 +71,6 @@ body {
 }
 .carousel {
     width: 500px;
-    height: 600px;
     position: relative;
 }
 .controls {
@@ -84,7 +80,7 @@ body {
     right: -60px;
     display: flex;
     justify-content: space-between;
-    transform: translateY(-70%);
+    transform: translateY(-50%);
     padding: 0 12px;
 }
 .controls button {
