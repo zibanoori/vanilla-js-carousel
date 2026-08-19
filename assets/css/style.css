@@ -1,3 +1,8 @@
+:root {
+    --title-font: "DM Serif Display", serif;
+    --body-font: "Josefin Sans", sans-serif;
+    --accent-font: "Dancing Script", cursive;
+}
 * {
     margin: 0;
     padding: 0;
@@ -8,14 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: beige;
+    background: #eae0cf;
     font-family: var(--body-font);
 }
-:root {
-    --title-font: "DM Serif Display", serif;
-    --body-font: "Josefin Sans", sans-serif;
-    --accent-font: "Dancing Script", cursive;
-}
-.product h2 {
-    font-family: var(--title-font);
-}
+
